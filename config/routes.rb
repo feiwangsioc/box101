@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   end
 
   root "events#index"
+  
+  resource :user
 
 end
