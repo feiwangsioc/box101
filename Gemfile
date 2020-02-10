@@ -39,7 +39,10 @@ gem "devise-i18n"
 
 gem "select2-rails"
 
+gem 'bootstrap-datepicker-rails'
+
 gem "nested_form_fields"
+gem 'ckeditor', '4.2.4'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
