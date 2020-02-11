@@ -44,6 +44,10 @@ gem 'bootstrap-datepicker-rails'
 gem "nested_form_fields"
 gem 'ckeditor', '4.2.4'
 
+gem 'ranked-model'
+
+gem 'jquery-ui-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
