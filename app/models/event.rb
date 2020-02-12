@@ -1,5 +1,6 @@
 class Event < ApplicationRecord
 
+  has_many :registrations, :dependent => :destroy
    validates_presence_of :name, :friendly_id
 
    validates_uniqueness_of :friendly_id
